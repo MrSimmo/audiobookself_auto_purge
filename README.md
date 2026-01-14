@@ -19,6 +19,9 @@ I run it as a cronjob on my server but you can run it however you like.\
 **VERIFY_SSL**   (0 or 1). You can bypass the SSL certificate check by setting this to 0. If you see it failing, try this.\
 **MEDIA_TYPE**   EVERYTHING or AUDIOBOOKS or PODCASTS. Search for everything or just podcasts or just audiobooks.\
 **DEBUG**       (0 or 1). 1 enables extra logging for error remediation.\
+**AGE**         Optional minimum age filter. Only delete items added to library at least this long ago.\
+                  Format: number + suffix (d=days, w=weeks, m=months, y=years)\
+                  Examples: 5d (5 days), 4w (4 weeks), 3m (3 months), 1y (1 year)\
 \
 \
 **Here is my command line that I use on my mac:**\

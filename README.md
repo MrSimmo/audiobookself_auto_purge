@@ -1,18 +1,18 @@
 # AudioBookShelf Auto Purge
-
-As of the time of creating this, AudioBookShelf doesnt have the ability to automatically delete/purge/remove items from the library when they've been finished listening to. 
-
-This means that finished podcast episodes etc take up disk space which could be freed up.
-
-This python script connects via the API to ABS to check for finished Podcast episodes and then delete them. 
-
-Note - you can also keep ABS podcast shows by adding the tag "KEEP" (without the quotes) to the shows tag. The script will ignore shows that have that tag.
-
-
-I run it as a cronjob on my server but you can run it however you like.
-
-Environment variables are:
-
+\
+As of the time of creating this, AudioBookShelf doesnt have the ability to automatically delete/purge/remove items from the library when they've been finished listening to. \
+\
+This means that finished podcast episodes etc take up disk space which could be freed up.\
+\
+This python script connects via the API to ABS to check for finished Podcast episodes and then delete them. \
+\
+Note - you can also keep ABS podcast shows by adding the tag "KEEP" (without the quotes) to the shows tag. The script will ignore shows that have that tag.\
+\
+\
+I run it as a cronjob on my server but you can run it however you like.\
+\
+Environment variables are:\
+\
 DRY_RUN       (0 or 1). 1 being it checked but doesn't actually delete anything\
 ABS_URL       the url of your ABS server\
 ABS_TOKEN     your API key (generated from settings -> api keys) in your ABS server)\

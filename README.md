@@ -14,11 +14,11 @@ I run it as a cronjob on my server but you can run it however you like.\
 **Environment variables are:**\
 \
 **DRY_RUN**       (0 or 1). 1 being it checked but doesn't actually delete anything\
-**ABS_URL **      the url of your ABS server\
-**ABS_TOKEN **    your API key (generated from settings -> api keys) in your ABS server)\
-**VERIFY_SSL **   (0 or 1). You can bypass the SSL certificate check by setting this to 0. If you see it failing, try this.\
-**MEDIA_TYPE **   EVERYTHING or AUDIOBOOKS or PODCASTS. Search for everything or just podcasts or just audiobooks.\
-**DEBUG  **       (0 or 1). 1 enables extra logging for error remediation.\
+**ABS_URL**      the url of your ABS server\
+**ABS_TOKEN**    your API key (generated from settings -> api keys) in your ABS server)\
+**VERIFY_SSL**   (0 or 1). You can bypass the SSL certificate check by setting this to 0. If you see it failing, try this.\
+**MEDIA_TYPE**   EVERYTHING or AUDIOBOOKS or PODCASTS. Search for everything or just podcasts or just audiobooks.\
+**DEBUG**       (0 or 1). 1 enables extra logging for error remediation.\
 \
 \
 **Here is my command line that I use on my mac:**\

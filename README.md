@@ -26,10 +26,10 @@ I run it as a cronjob on my server but you can run it however you like.\
 \
 **Here is my command line that I use on my mac:**\
 \
-DRY_RUN=1 ABS_URL="https://my_nas_server:13370/audiobookshelf" ABS_TOKEN="abs_api_key" VERIFY_SSL=0 python3 ./abs-cleanup-finished-episodes-v3.py\
+DRY_RUN=1 ABS_URL="https://my_nas_server:13370/audiobookshelf" ABS_TOKEN="abs_api_key" VERIFY_SSL=0 python3 ./abs-cleanup-finished-episodes.py\
 \
 \
 \
 **Example cron entry (runs daily at 3am):**\
 \
-0 3 * * * ABS_URL="https://my_nas_server:13370/audiobookshelf" ABS_TOKEN="your-token" /path/to/abs-cleanup-finished-episodes-v3.py\
+0 3 * * * ABS_URL="https://my_nas_server:13370/audiobookshelf" ABS_TOKEN="your-token" /path/to/abs-cleanup-finished-episodes.py\
